@@ -1,0 +1,374 @@
+*{ box-sizing: border-box }
+
+html, body{ 
+    /* overflow-x: hidden; */
+    background-color: #0E0E0E;
+}
+
+.body-index {
+    width: 100vw;
+    height: 100vh;
+    /* padding-top: 3.61vh; */
+    /* display: block; */
+    /* padding: 3vw; */
+    /* position: relative; */
+    /* cursor: url("../cursor.png") 32 32, auto; */
+}
+
+/* :root {
+  --black: rgba(14, 14, 14, 1);
+  --whitewhite: rgba(250, 250, 250, 1);
+} */
+
+.logo {
+  width: 100%;
+  position: absolute;
+  max-width: 100%;
+  /* overflow: hidden; */
+  height: 32.7px;
+  width: 103.7px;
+  top: 3.61vh;
+  left: 17vw;
+}
+
+
+
+/* SECTION 1 */
+
+.holoports {
+  width: 100%; 
+  height: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  gap: 95px; 
+  /* display: inline-flex; */
+  position: relative;
+  margin-top: 0;
+  left: 0;
+  z-index: 200;
+}
+
+.firstHoloport {
+  width: 200px; 
+  display: flex;  
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: flex-end; 
+  gap: 10px; 
+  position: relative;
+}
+
+.f-H {
+  width: 1028px; 
+  height: 578px; 
+  background: linear-gradient(0deg, #8D8D8D 0%, #8D8D8D 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(..//img/holoports.gif) lightgray 50% / contain no-repeat;
+  position: relative;
+}
+
+.secondHoloport {
+  width: 84.64vw; 
+  height: 100vh; 
+  /* flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start;  */
+  /* gap: 10px; 
+  display: inline-flex; */
+  position: relative;
+  transition: right 1.5s ease-out; 
+   /* Анимация для плавного движения */
+  right: 0;
+  /* animation: moveRight 3s forwards ease-in-out;  */
+  /* Применяем CSS анимацию "moveRight" с продолжительностью 1 секунда */
+}
+
+/* @keyframes moveRight {
+  from { left: 0; } 
+  to { left: 1381px; } 
+} */
+
+
+.s-H {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%);
+  position: relative;
+  width: 1920px; 
+  height: 1080px; 
+  background:  url(..//img/holoports.gif) lightgray 50% / contain no-repeat, linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%),;
+}
+
+.secondHoloport .group {
+  width: 1625px;
+  height: 1080px;
+  top: 0;
+  left: 0;
+}
+
+.secondHoloport .overlap-group {
+  position: relative;
+  height: 1080px;
+}
+
+.secondHoloport .frame {
+  display: flex;
+  flex-direction: column;
+  width: 1625px;
+  height: 1080px;
+  top: 0;
+  left: 0;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+}
+
+.secondHoloport .rectangle {
+  position: relative;
+  width: 1625px;
+  height: 1080px;
+}
+
+.secondHoloport .textBlock {
+  display: inline-flex;
+  top: 756px;
+  left: 20px;
+  align-items: flex-start;
+  gap: 10px;
+  position: absolute;
+}
+
+.secondHoloport .header {
+  position: relative;
+  width: 1070px;
+  margin-top: -1px;
+  /* font-family: "MrPalker-Regular", Helvetica; */
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 144px;
+  letter-spacing: 0;
+  /* line-height: normal; */
+}
+
+.secondHoloport .fridges {
+  font-family: "MrPalker-Regular";
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 144px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  line-height: 144px;
+}
+
+.secondHoloport .teleports {
+  font-family: "Panama-Italic", Helvetica;
+  font-style: italic;
+  text-transform: uppercase;
+  line-height: 144px;
+}
+
+.secondHoloport .text-block {
+  position: absolute;
+  width: 330px;
+  top: 204px;
+  left: 740px;
+  font-family: "SF Pro Text", Helvetica;
+  font-weight: 400;
+  color: var(--whitewhite);
+  font-size: 20px;
+  letter-spacing: -0.6px;
+  line-height: 25.1px;
+}
+
+
+
+/* SECTION 2 */
+.menu {
+  display: flex;
+  flex-direction: column;
+  width: 1020px;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  margin-top: -680px;
+  margin-left: 377px;
+  z-index: 100;
+}
+
+.menu1 {
+  align-items: flex-start;
+  gap: 181px;
+  display: inline-flex;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.part {
+  align-items: flex-start;
+  gap: 56px;
+  display: inline-flex;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.menu .ellipseDiv {
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  display: inline-flex;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.menu .ellipse {
+  position: relative;
+  width: 140px;
+  height: 140px;
+  border-radius: 70px;
+  border: 2px solid;
+  border-color: #ffffff;
+}
+
+.menu .el-number{
+  position: absolute;
+  width: 35px;
+  height: 74px;
+  top: 33px;
+  left: 52px;
+}
+
+.text-menu {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "MrPalker-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 175px;
+  letter-spacing: 0;
+  line-height: 171.5px;
+  white-space: nowrap;
+}
+
+a {
+  text-decoration: none;
+}
+
+.img-menu {
+  position: relative;
+  width: 89px;
+  height: 140px;
+}
+
+.menu2 {
+  align-items: flex-start;
+  gap: 214px;
+  display: inline-flex;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.img-menu2 {
+  width: 93px;
+  position: relative;
+  height: 140px;
+}
+
+.menu3 {
+  align-items: flex-start;
+  gap: 76px;
+  display: inline-flex;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.menu .ellipseDiv2 {
+  align-items: flex-start;
+  gap: 10px;
+  display: inline-flex;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.img-menu3 {
+  width: 210px;
+  position: relative;
+  height: 140px;
+}
+
+.menu4 {
+  align-items: flex-start;
+  gap: 92px;
+  display: inline-flex;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.menu .img-menu4 {
+  position: relative;
+  width: 99px;
+  height: 140px;
+}
+
+
+
+/* OPACITY */
+
+.opacity1 {
+
+  /* position: absolute; */
+  margin-top: 0px;
+  margin-left: 24px;
+  width: 986px;
+  height: 173px;
+}
+.opacity2 {
+
+  /* position: absolute; */
+  /* margin-top: 165px; */
+  margin-left: 0px;
+  width: 1067px;
+  height: 164px;
+}
+.opacity3 {
+
+  /* position: absolute; */
+  /* margin-top: 478px; */
+  margin-left: 50px;
+  width: 878px;
+  height: 163px;
+}
+.opacity4 {
+
+  /* position: absolute; */
+  /* margin-top: 321px; */
+  margin-left: 110px;
+  width: 818px;
+  height: 164px;
+}
+.menu-opacity {
+  width: 100%;
+  position: relative;
+  height: 641px;
+}
+
+.menu-opacity {
+  display: flex;
+  flex-direction: column;
+  width: 1020px;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  margin-top: -680px;
+  margin-left: 377px;
+  z-index: 300;
+}
+
+
+
+
+
+
+
+
+
+
+  
+  

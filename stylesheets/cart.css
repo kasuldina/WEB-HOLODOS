@@ -1,0 +1,88 @@
+.forma {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    text-align: left;
+    font-size: 18px;
+    color: #8d8d8d;
+    font-family: 'SF Pro Text';
+    margin-top: 20vh
+}
+
+/* .in-text {
+    position: relative;
+    letter-spacing: -0.04em;
+    line-height: 109.6%;
+} */
+.input1 {
+    width: 610px;
+    /* align-self: stretch; */
+    border-radius: 32px;
+    color: #fff;
+    background-color: #0e0e0e;
+    border: 1px solid #fafafa;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 554px 18px 20px;
+}
+.input2 {
+    width: 610px;
+    /* align-self: stretch; */
+    border-radius: 32px;
+    color: #fff;
+    background-color: #0e0e0e;
+    border: 1px solid #fafafa;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 513px 18px 20px;
+}
+.input3 {
+    width: 610px;
+    /* align-self: stretch; */
+    border-radius: 32px;
+    color: #fff;
+    background-color: #0e0e0e;
+    border: 1px solid #fafafa;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 449px 18px 20px;
+}
+.input4 {
+    width: 610px;
+    /* align-self: stretch; */
+    border-radius: 32px;
+    color: #fff;
+    background-color: #0e0e0e;
+    border: 1px solid #fafafa;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 539px 18px 20px;
+}
+.input5 {
+    width: 249px;
+    border-radius: 32px;
+    background-color: #fafafa;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 87px;
+    color: #0e0e0e;
+}
+
+

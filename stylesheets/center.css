@@ -1,0 +1,96 @@
+.menu-center {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 695px;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'SF Pro Text';
+    z-index: 100;
+    padding-left: 16.35vw;
+    padding-right: 16.35vw;
+    padding-top: 3.61vh;
+}
+
+.parent-center {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 65px;
+    white-space: nowrap;
+}
+
+.element-center {
+    position: relative;
+    letter-spacing: -0.03em;
+    cursor: pointer;
+    color: #0E0E0E;
+}
+
+.holodos-center {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    max-width: 100%;
+    /* overflow: hidden; */
+    height: 1080px;
+    object-fit: cover;
+    }
+
+
+
+.just-center {
+        width: 100%;
+        width: 1290px;
+        height: 914px;
+        position: relative;
+        max-width: 100%;
+        overflow: hidden;
+        height: 914px;
+        object-fit: cover;
+        margin-top: 1188px;
+        align-items: center;
+        justify-content: center;
+        }
+
+.center1 {
+width: 100%;
+width: 1290px;
+background-color: aliceblue;
+position: relative;
+max-width: 100%;
+overflow: hidden;
+height: 720px;
+object-fit: cover;
+margin-top: 166px;
+left: 0px;
+}
+
+.center2 {
+    width: 100%;
+    width: 1055px;
+    background-color: aliceblue;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 504px;
+    object-fit: cover;
+    margin-top: 72px;
+    margin-left: 45.05vw;
+    }
+
+.center3 {
+width: 100%;
+width: 1302px;
+position: relative;
+background-color: aliceblue;
+max-width: 100%;
+overflow: hidden;
+height: 828px;
+object-fit: cover;
+margin-top: 72px;
+}

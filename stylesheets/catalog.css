@@ -1,0 +1,198 @@
+/* HEADER */
+
+.holodos-icon {
+    width: 103.7px;
+    position: relative;
+    height: 32.7px;
+}
+
+.body-catalog {
+    padding-left: 16.35vw;
+    padding-right: 16.35vw;
+    padding-top: 3.61vh;
+  }
+
+.element {
+    position: relative;
+    letter-spacing: -0.03em;
+    cursor: pointer;
+    color: #fafafa;
+}
+
+.parent-catalog {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 65px;
+    white-space: nowrap;
+}
+
+.holodos-parent {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 695px;
+    text-align: left;
+    font-size: 18px;
+    color: #fafafa;
+    font-family: 'SF Pro Text';
+    z-index: 100;
+}
+
+.div {
+    position: relative;
+    letter-spacing: -0.03em;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.wrapper {
+    border-radius: 46px;
+    border: 1px solid #fafafa;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 8px 35px;
+}
+
+.frame-parent {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 22px;
+    text-align: left;
+    font-size: 20px;
+    color: #fafafa;
+    font-family: 'SF Pro Text';
+}
+
+
+
+/* SECTION 1 */
+
+.options {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 22px;
+    text-align: left;
+    font-size: 20px;
+    color: #fafafa;
+    font-family: 'SF Pro Text';
+    margin-top: 72px;
+}
+
+.option-button {
+    position: relative;
+    border-radius: 46px;
+    border: 1px solid #fafafa;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 8px 35px;
+}
+
+.button {
+    position: relative;
+    letter-spacing: -0.03em;
+    font-weight: 500;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+
+
+/* SECTION 2 */
+
+.advertising {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 30px;
+    text-align: left;
+    color: #fafafa;
+    font-family: 'SF Pro Text';
+    margin-top: 68px;
+}
+
+.holodos-img {
+    width: 410px;
+    height: 612px;
+    position: relative;
+    object-fit: cover;
+    /* background-image: url(..//img/holodos-img.png); */
+}
+
+.adv-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+.adv-price {
+    position: relative;
+    font-size: 34px;
+    letter-spacing: -0.08em;
+    line-height: 100%;
+    font-family: "Panama";
+}
+.adv-header {
+    width: 278px;
+    position: relative;
+    font-size: 34px;
+    letter-spacing: -0.08em;
+    line-height: 100%;
+    font-weight: 600;
+    display: inline-block;
+}
+.adv-text {
+    width: 409px;
+    position: relative;
+    font-size: 18px;
+    letter-spacing: -0.06em;
+    line-height: 125.58%;
+    font-weight: 500;
+    display: inline-block;
+}
+
+
+
+/* SECTION 3 */
+
+.products {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    margin-top: 72px;
+}
+
+.products-img {
+    width: 410px;
+    position: relative;
+    height: 576px;
+    object-fit: cover;
+}
+
+
+
