@@ -25,7 +25,19 @@
     color: #bdb7b5;
     font-family: 'SF Pro Text';
     margin-top: 70px;
+    left: 0vw;
+    animation: leftt 10s infinite;
 }
+
+@keyframes leftt {
+    0% {
+        left: 0vw
+    }
+    100%{
+        left: -100vw;
+    }
+}
+
 
 .posters-block {
     display: flex;
